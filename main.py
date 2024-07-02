@@ -3,6 +3,8 @@ def main():
     numbers = []
     
     for i in range(5):
+        num = float(input(f'enter number {i+1}:'))
+        numbers.append(num)
         
 
 
