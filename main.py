@@ -16,7 +16,7 @@ def main():
             maxval = num
             
     print("all input numbers:", numbers)
-    print(maxval, minval)
+    print("greatest & least value:" , maxval, minval)
 
     return numbers, maxval, minval
 
