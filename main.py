@@ -7,9 +7,9 @@ def main():
         numbers.append(num)
         
     for num in numbers:
-        if num < numbers:
+        if num < minval:
             minval = num
-        if num > numbers:
+        if num > maxval:
             maxval = num
             
     print("all input numbers:", numbers)
@@ -17,9 +17,7 @@ def main():
 
     print(*numbers)
     print(maxval, minval)
-    ########################################
-    # Do not delete the return statement
-    ########################################
+
     return numbers, maxval, minval
 
 
