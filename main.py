@@ -6,7 +6,14 @@ def main():
         num = float(input(f'enter number {i+1}:'))
         numbers.append(num)
         
-
+    for num in numbers:
+        if num < numbers:
+            minval = num
+        if num > numbers:
+            maxval = num
+            
+    print("all input numbers:", numbers)
+    print(maxval, minval)
 
     print(*numbers)
     print(maxval, minval)
